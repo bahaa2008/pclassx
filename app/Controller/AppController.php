@@ -1,13 +1,13 @@
 <?php
-// app/Controller/AppController.php
+// File: app/Controller/AppController.php
 class AppController extends Controller {
-	// ...
 
 	public $components = array(
 		'Session',
 		'Auth' => array(
 			'loginRedirect' => array('controller' => 'posts', 'action' => 'index'),
 			'logoutRedirect' => array('controller' => 'pages', 'action' => 'display', 'home')
+			'authorize' => array('controller') //Add authrized state
 		)
 	);
 
@@ -15,6 +15,5 @@ class AppController extends Controller {
 		$this->Auth->allow('index', 'view');
 
 	}
-	// ... 
 
 }
