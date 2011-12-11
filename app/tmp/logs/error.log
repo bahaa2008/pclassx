@@ -1,0 +1,92 @@
+2011-12-09 20:01:00 Error: [MissingControllerException] Controller class File.phpController could not be found.
+#0 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 20:01:57 Error: [MissingControllerException] Controller class File.phpController could not be found.
+#0 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 20:44:08 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-09 20:48:36 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-10 11:22:20 Error: [MissingTableException] Database table courses for model Course was not found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/Model/Model.php(3238): Model->setSource('courses')
+#1 /home/bahaa/phpcake/classx/lib/Cake/Model/Model.php(2460): Model->getDataSource()
+#2 /home/bahaa/phpcake/classx/app/Controller/CoursesController.php(7): Model->find('all')
+#3 [internal function]: CoursesController->index()
+#4 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#5 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#6 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2011-12-10 14:59:41 Error: [MissingControllerException] Controller class CourseController could not be found.
+#0 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-10 15:01:38 Error: [MethodNotAllowedException] Method Not Allowed
+#0 /home/bahaa/phpcake/classx/lib/Cake/Controller/Scaffold.php(399): Scaffold->_scaffoldDelete(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(518): Scaffold->__construct(Object(CoursesController), Object(CakeRequest))
+#3 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(477): Controller->_getScaffold(Object(CakeRequest))
+#4 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2011-12-10 15:01:44 Error: [MethodNotAllowedException] Method Not Allowed
+#0 /home/bahaa/phpcake/classx/lib/Cake/Controller/Scaffold.php(399): Scaffold->_scaffoldDelete(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(518): Scaffold->__construct(Object(CoursesController), Object(CakeRequest))
+#3 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(477): Controller->_getScaffold(Object(CakeRequest))
+#4 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2011-12-10 15:03:26 Error: [MissingActionException] Action PostsController::admin_index() could not be found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-10 16:49:10 Error: [MissingActionException] Action PostsController::admin_index() could not be found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-10 16:49:18 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/View/View.php(577): HelperCollection->load('Ajax', Array)
+#1 /home/bahaa/phpcake/classx/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-10 18:06:07 Error: [MissingViewException] View file "/home/bahaa/phpcake/classx/app/View/Users/index.ctp" is missing.
+#0 /home/bahaa/phpcake/classx/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-10 18:18:47 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-10 18:22:36 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-10 18:28:52 Error: [MissingViewException] View file "/home/bahaa/phpcake/classx/app/View/Users/login.ctp" is missing.
+#0 /home/bahaa/phpcake/classx/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /home/bahaa/phpcake/classx/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-10 18:56:05 Error: [MissingActionException] Action UsersController::lgout() could not be found.
+#0 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
