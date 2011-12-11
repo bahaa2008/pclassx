@@ -16,4 +16,11 @@ class AppController extends Controller {
 
 	}
 
+	public function isAutherized($user) {
+		if(isset($user['role'] && $user['role'] === 'admin') {
+			return true; //Adming can access every action
+		}
+		return false; // The rest don't have access
+	}
+
 }
