@@ -56,6 +56,6 @@ $cakeDescription = __d('cake_dev', 'ClassX: The OpenSource Educational Platform'
 			?>
 		</div>
 	</div>
-	<?php /* echo $this->element('sql_dump'); */ ?>
+	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>

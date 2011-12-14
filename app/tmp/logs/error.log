@@ -90,3 +90,688 @@
 #1 /home/bahaa/phpcake/classx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #2 /home/bahaa/phpcake/classx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2011-12-11 19:21:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:21:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:22:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:49:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:49:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:49:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:49:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:50:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 19:50:15 Error: [CakeException] $controller does not implement an isAuthorized() method.
+#0 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(70): ControllerAuthorize->controller(Object(PostsController))
+#1 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(414): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(376): AuthComponent->constructAuthorize()
+#3 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PostsController))
+#5 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#6 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#7 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#8 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-12-11 19:50:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-11 20:00:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 10:06:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 10:06:41 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 10:06:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 10:06:59 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOwnedBy' at line 1
+#0 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('isOwnedBy', Array)
+#2 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('isOwnedBy', Array, Array)
+#3 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('isOwnedBy', Array, Array)
+#4 /home/bahaa/pclassx/lib/Cake/Model/Model.php(720): DboSource->query('isOwnedBy', Array, Object(Post))
+#5 [internal function]: Model->__call('isOwnedBy', Array)
+#6 /home/bahaa/pclassx/app/Controller/PostsController.php(106): Post->isOwnedBy('1', '4')
+#7 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): PostsController->isAuthorized(Array)
+#8 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#9 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#10 [internal function]: AuthComponent->startup(Object(PostsController))
+#11 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#12 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#13 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#14 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2011-12-12 10:06:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:21:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:22:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOwnedBy' at line 1
+#0 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('isOwnedBy', Array)
+#2 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('isOwnedBy', Array, Array)
+#3 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('isOwnedBy', Array, Array)
+#4 /home/bahaa/pclassx/lib/Cake/Model/Model.php(720): DboSource->query('isOwnedBy', Array, Object(Post))
+#5 [internal function]: Model->__call('isOwnedBy', Array)
+#6 /home/bahaa/pclassx/app/Controller/PostsController.php(106): Post->isOwnedBy('1', '4')
+#7 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): PostsController->isAuthorized(Array)
+#8 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#9 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#10 [internal function]: AuthComponent->startup(Object(PostsController))
+#11 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#12 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#13 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#14 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2011-12-12 11:22:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:22:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:23:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:23:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOwnedBy' at line 1
+#0 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('isOwnedBy', Array)
+#2 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('isOwnedBy', Array, Array)
+#3 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('isOwnedBy', Array, Array)
+#4 /home/bahaa/pclassx/lib/Cake/Model/Model.php(720): DboSource->query('isOwnedBy', Array, Object(Post))
+#5 [internal function]: Model->__call('isOwnedBy', Array)
+#6 /home/bahaa/pclassx/app/Controller/PostsController.php(106): Post->isOwnedBy('1', '4')
+#7 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): PostsController->isAuthorized(Array)
+#8 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#9 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#10 [internal function]: AuthComponent->startup(Object(PostsController))
+#11 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#12 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#13 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#14 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2011-12-12 11:23:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:28:42 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOwnedBy' at line 1
+#0 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('isOwnedBy', Array)
+#2 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('isOwnedBy', Array, Array)
+#3 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('isOwnedBy', Array, Array)
+#4 /home/bahaa/pclassx/lib/Cake/Model/Model.php(720): DboSource->query('isOwnedBy', Array, Object(Post))
+#5 [internal function]: Model->__call('isOwnedBy', Array)
+#6 /home/bahaa/pclassx/app/Controller/PostsController.php(106): Post->isOwnedBy('1', '4')
+#7 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): PostsController->isAuthorized(Array)
+#8 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#9 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#10 [internal function]: AuthComponent->startup(Object(PostsController))
+#11 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#12 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#13 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#14 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2011-12-12 11:28:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:30:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:32:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:33:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:33:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOwnedBy' at line 1
+#0 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('isOwnedBy', Array)
+#2 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('isOwnedBy', Array, Array)
+#3 /home/bahaa/pclassx/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('isOwnedBy', Array, Array)
+#4 /home/bahaa/pclassx/lib/Cake/Model/Model.php(720): DboSource->query('isOwnedBy', Array, Object(Post))
+#5 [internal function]: Model->__call('isOwnedBy', Array)
+#6 /home/bahaa/pclassx/app/Controller/PostsController.php(107): Post->isOwnedBy(Array, '4')
+#7 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): PostsController->isAuthorized(Array)
+#8 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#9 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#10 [internal function]: AuthComponent->startup(Object(PostsController))
+#11 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#12 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#13 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#14 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2011-12-12 11:33:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:36:53 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:36:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:37:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:42:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:42:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:42:19 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:42:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:42:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:47:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 11:58:29 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:24:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:25:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:26:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:26:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:27:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:28:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:28:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:28:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:28:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:29:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:29:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:29:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:29:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:29:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:34:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:34:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:34:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:35:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:35:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:35:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:35:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:35:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:35:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:35:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:37:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:46:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:47:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:47:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:47:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:47:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:47:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:47:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:48:01 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:51:05 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:51:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 12:51:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 14:22:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 14:22:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 14:22:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 14:22:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 14:22:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-12 14:24:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:00:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:00:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:00:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:00:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:05:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:06:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:08:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:08:25 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:08:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:08:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:08:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:10:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:10:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:13:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:16:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:47:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:47:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:47:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:47:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:47:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:47:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:47:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:48:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:48:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:50:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:50:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:50:10 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:50:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:50:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:50:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:51:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:51:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:51:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:51:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:51:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 11:51:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 14:47:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 14:49:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:44:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:44:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:44:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:46:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:46:16 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:46:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:46:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:46:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:47:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:47:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:49:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:50:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:54:06 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:54:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:55:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:55:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:55:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:55:59 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:56:44 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:56:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:57:20 Error: [NotFoundException] Invalid post
+#0 [internal function]: PostsController->view('4')
+#1 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-13 16:57:21 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:57:28 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:57:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:57:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 16:57:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 17:00:31 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 17:00:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 17:00:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 17:01:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 17:01:14 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 17:01:34 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-13 17:01:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:14:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:15:08 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:15:08 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:15:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:15:26 Error: [CakeException] $controller does not implement an isAuthorized() method.
+#0 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(70): ControllerAuthorize->controller(Object(UsersController))
+#1 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(414): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(376): AuthComponent->constructAuthorize()
+#3 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#6 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#7 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#8 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-12-14 10:15:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:15:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:15:38 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 10:15:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:07:54 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:07:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:08:11 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:08:11 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:15:51 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:15:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:32:30 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:32:30 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:33:27 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:33:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:43:15 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:43:15 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:43:33 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:43:33 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:43:45 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:43:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:43:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:45:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:45:17 Error: [CakeException] $controller does not implement an isAuthorized() method.
+#0 /home/bahaa/pclassx/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(70): ControllerAuthorize->controller(Object(UsersController))
+#1 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(414): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(376): AuthComponent->constructAuthorize()
+#3 /home/bahaa/pclassx/lib/Cake/Controller/Component/AuthComponent.php(330): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 /home/bahaa/pclassx/lib/Cake/Utility/ObjectCollection.php(103): call_user_func_array(Array, Array)
+#6 /home/bahaa/pclassx/lib/Cake/Controller/Controller.php(606): ObjectCollection->trigger('startup', Array)
+#7 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(104): Controller->startupProcess()
+#8 /home/bahaa/pclassx/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2011-12-14 16:45:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:47:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:48:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:53:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:53:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:53:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:54:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:55:13 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:55:27 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:55:32 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-14 16:55:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/bahaa/pclassx/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

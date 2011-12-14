@@ -96,7 +96,7 @@ class UsersController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('add'); // Letting users register themselves
+		//$this->Auth->allow('add'); // Letting users register themselves
 	}
 
 	public function login() {
@@ -110,4 +110,11 @@ class UsersController extends AppController {
 	public function logout() {
 		$this->redirect($this->Auth->logout());
 	}
+
+	public function isAuthorized($user) {
+                if($this->Auth->user('role') == 'admin') {
+                        return true;
+                }
+          	//return parent::isAuthorized();
+        }
 }

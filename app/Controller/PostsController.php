@@ -40,7 +40,7 @@ class PostsController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Post->create();
-			$this->request->data['post']['user_id'] = $this->Auth->user['id']; //Add user_id to the post data
+			$this->request->data['Post']['user_id'] = $this->Auth->user('id'); //Add user_id to the post data
 			if ($this->Post->save($this->request->data)) {
 				$this->Session->setFlash(__('The post has been saved'));
 				$this->redirect(array('action' => 'index'));
@@ -93,6 +93,19 @@ class PostsController extends AppController {
 		}
 		$this->Session->setFlash(__('Post was not deleted'));
 		$this->redirect(array('action' => 'index'));
+	}
+
+	public function isAuthorized($user) {
+		if($this->action == 'add') {
+			//All registered users can add posts
+			return true;
+		}
+
+		if(in_array($this->action, array('edit', 'delete'))) {
+			$postId = $this->request->params['pass'][0];
+			return $this->Post->isOwnedBy($postId, $user['id']);
+		}
+		return parent::isAuthorized();
 	}
 
 }
